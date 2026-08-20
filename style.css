@@ -231,6 +231,53 @@ h2{
 font-size:38px;
 }
 
+  /* NOORA Early Access Form */
+
+.waitlist-form {
+    max-width: 500px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.waitlist-form input,
+.waitlist-form select {
+    width: 100%;
+    padding: 16px 18px;
+    border: 1px solid #d8cfc5;
+    background: #fffdf9;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: #4a4038;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.waitlist-form input::placeholder {
+    color: #9b9188;
+}
+
+.waitlist-form input:focus,
+.waitlist-form select:focus {
+    border-color: #8b7765;
+}
+
+.waitlist-form button {
+    padding: 16px 25px;
+    border: none;
+    background: #4a4038;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.waitlist-form button:hover {
+    background: #746255;
+}
 header img{
 height:60vh;
 }
