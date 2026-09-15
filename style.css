@@ -383,3 +383,313 @@ height:60vh;
     }
 
 }
+```css
+/* =========================
+NOORA NEW SECTIONS
+Safe add-on — keep existing CSS above
+========================= */
+
+/* Intro additions */
+
+.eyebrow{
+font-size:11px;
+letter-spacing:3px;
+text-transform:uppercase;
+color:#9A806B;
+margin-bottom:20px;
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.secondary-button{
+background:#4A4038;
+}
+
+.secondary-button:hover{
+background:#746255;
+}
+
+.worldwide-note{
+margin-top:22px;
+font-size:13px;
+letter-spacing:1px;
+}
+
+
+/* Section introduction */
+
+.section-intro{
+margin-top:-15px;
+font-size:16px;
+color:#75685E;
+}
+
+
+/* Made for the Woman */
+
+#for-you{
+background:#F3EEE8;
+}
+
+.for-you-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+max-width:900px;
+margin:50px auto 0;
+}
+
+.for-you-item{
+background:#FAF8F5;
+padding:35px;
+border-radius:18px;
+text-align:center;
+}
+
+.for-you-item h3{
+font-family:'Cormorant Garamond',serif;
+font-size:26px;
+margin-bottom:10px;
+}
+
+.for-you-item p{
+font-size:15px;
+}
+
+
+/* NOORA Difference */
+
+#difference{
+background:white;
+}
+
+
+/* How to Order */
+
+#order{
+background:#F3EEE8;
+}
+
+.order-steps{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+max-width:1100px;
+margin:55px auto 0;
+}
+
+.order-step{
+background:white;
+padding:35px 25px;
+border-radius:18px;
+text-align:center;
+}
+
+.order-step span{
+font-family:'Cormorant Garamond',serif;
+font-size:38px;
+color:#B4947A;
+display:block;
+margin-bottom:10px;
+}
+
+.order-step h3{
+font-family:'Cormorant Garamond',serif;
+font-size:24px;
+margin-bottom:12px;
+}
+
+.order-step p{
+font-size:14px;
+}
+
+
+/* Worldwide Shipping */
+
+#worldwide{
+text-align:center;
+}
+
+#worldwide > p{
+margin-bottom:12px;
+}
+
+.shipping-note{
+max-width:650px;
+margin:40px auto 10px;
+padding:35px;
+background:white;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.shipping-note strong{
+display:block;
+font-family:'Cormorant Garamond',serif;
+font-size:25px;
+margin-top:15px;
+}
+
+.shipping-note strong:first-child{
+margin-top:0;
+}
+
+.shipping-note p{
+font-size:15px;
+margin-bottom:10px;
+}
+
+.small-note{
+font-size:12px !important;
+color:#8A7D73;
+margin-top:20px !important;
+}
+
+
+/* International Order Section */
+
+#international-interest{
+background:#F3EEE8;
+}
+
+#international-interest .waitlist-form{
+max-width:500px;
+margin:40px auto 0;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+
+/* Make existing form styling work on desktop too */
+
+.waitlist-form{
+max-width:500px;
+margin:40px auto 0;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.waitlist-form input,
+.waitlist-form select,
+.waitlist-form textarea{
+width:100%;
+padding:16px 18px;
+border:1px solid #D8CFC5;
+background:#FFFDF9;
+font-family:'Manrope',sans-serif;
+font-size:14px;
+color:#4A4038;
+outline:none;
+}
+
+.waitlist-form textarea{
+resize:vertical;
+min-height:110px;
+}
+
+.waitlist-form input::placeholder,
+.waitlist-form textarea::placeholder{
+color:#9B9188;
+}
+
+.waitlist-form input:focus,
+.waitlist-form select:focus,
+.waitlist-form textarea:focus{
+border-color:#8B7765;
+}
+
+
+/* FAQ */
+
+#faq{
+background:white;
+}
+
+.faq-list{
+max-width:800px;
+margin:45px auto 0;
+}
+
+.faq-list details{
+border-bottom:1px solid #DDD4CA;
+padding:20px 0;
+}
+
+.faq-list summary{
+font-family:'Cormorant Garamond',serif;
+font-size:23px;
+font-weight:600;
+cursor:pointer;
+list-style:none;
+position:relative;
+padding-right:30px;
+}
+
+.faq-list summary::-webkit-details-marker{
+display:none;
+}
+
+.faq-list summary::after{
+content:"+";
+position:absolute;
+right:0;
+font-family:'Manrope',sans-serif;
+font-size:20px;
+font-weight:300;
+}
+
+.faq-list details[open] summary::after{
+content:"−";
+}
+
+.faq-list details p{
+text-align:left;
+font-size:15px;
+margin:15px 0 5px;
+color:#75685E;
+}
+
+
+/* Mobile */
+
+@media(max-width:900px){
+
+.for-you-grid{
+grid-template-columns:1fr;
+}
+
+.order-steps{
+grid-template-columns:1fr 1fr;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+}
+
+@media(max-width:550px){
+
+.order-steps{
+grid-template-columns:1fr;
+}
+
+.shipping-note{
+padding:28px 20px;
+}
+
+.for-you-item{
+padding:28px 22px;
+}
+
+}
+```
+
