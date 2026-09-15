@@ -1,249 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+```html
+<!-- International Interest Form -->
 
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NOORA | Comfort, Thoughtfully Designed</title>
-
-<meta name="description" content="Soft, breathable hijabs thoughtfully designed for women with sensitive scalps and hair loss.">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-<!-- Navigation -->
-
-<nav>
-
-<div class="brand">
-
-NOORA
-
-</div>
-
-<ul>
-
-<li><a href="#story">Our Story</a></li>
-
-<li><a href="#why">Why NOORA</a></li>
-
-<li><a href="#coming">Coming Soon</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-<!-- Hero Image -->
-
-<header>
-
-<img src="hero.jpg" alt="NOORA Hero Image">
-
-</header>
-
-<!-- Introduction -->
-
-<section class="intro">
-
-<h1>
-
-Comfort,<br>
-
-Thoughtfully Designed.
-
-</h1>
-
-<p>
-
-Soft, breathable hijabs thoughtfully created for women with sensitive scalps, hair loss, and anyone who believes comfort should never compromise elegance.
-
-</p>
-
-<a href="#story" class="button">
-
-Discover Our Story
-
-</a>
-
-</section>
-
-<!-- Story -->
-
-<section id="story">
-
-<div class="story">
-
-<div class="story-image">
-
-<img src="hero.jpg" alt="Founder">
-
-</div>
-
-<div class="story-text">
+<section id="international-interest">
 
 <h2>
-
-Our Story
-
+Interested in Ordering from Abroad?
 </h2>
 
 <p>
 
-I searched for a hijab that was gentle on my sensitive scalp, breathable enough for all-day wear, and elegant enough to feel confident in.
-
-When I couldn't find one,
-
-I decided to create it.
+Tell us where you are. We'll let you know when international orders open and help you with shipping options.
 
 </p>
 
-<p>
+<form
+action="https://formspree.io/f/mnpallrq"
+method="POST"
+class="waitlist-form"
+>
 
-NOORA was born from one simple belief:
-
-Every woman deserves comfort without sacrificing confidence.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- Why -->
-
-<section id="why">
-
-<h2>
-
-Why NOORA?
-
-</h2>
-
-<div class="cards">
-
-<div class="card">
-
-<h3>🌿 Gentle</h3>
-
-<p>
-
-Designed for sensitive scalps.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>☁ Breathable</h3>
-
-<p>
-
-Comfort from morning until night.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>✨ Elegant</h3>
-
-<p>
-
-Minimalist styles you'll reach for every day.
-
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>🤍 Thoughtfully Designed</h3>
-
-<p>
-
-Every detail made with care.
-
-</p>
-
-</div>
-
-</div>
-
-<!-- TikTok Videos -->
-
-<section id="tiktok">
-
-<h2>
-A Glimpse of NOORA
-</h2>
-
-<p>
-Follow our journey as we bring NOORA to life.
-</p>
-
-<div class="tiktok-grid">
-
-<iframe
-src="https://www.tiktok.com/player/v1/7670883109285580053"
-allow="fullscreen"
-title="NOORA TikTok Video 1">
-</iframe>
-
-<iframe
-src="https://www.tiktok.com/player/v1/7674995219976293652"
-allow="fullscreen"
-title="NOORA TikTok Video 2">
-</iframe>
-
-<iframe
-src="https://www.tiktok.com/player/v1/7674110552637017365"
-allow="fullscreen"
-title="NOORA TikTok Video 3">
-</iframe>
-
-</div>
-
-<p class="tiktok-follow">
-<a href="https://www.tiktok.com/@nooraph" target="_blank">
-Follow @nooraph on TikTok
-</a>
-</p>
-
-</section>
-  
-</section>
-
-<!-- Coming Soon -->
-
-<section id="coming">
-
-<h2>
-NOORA is Coming Soon
-</h2>
-
-<p>
-Be among the first to experience NOORA.
-<br>
-Join our early access list and be the first to know when our first collection launches.
-</p>
-
-<form action="https://formspree.io/f/mnpallrq" method="POST" class="waitlist-form">
+<input
+type="hidden"
+name="form_type"
+value="International Order Interest"
+>
 
 <input
 type="text"
@@ -259,105 +39,77 @@ placeholder="Your Email Address"
 required
 >
 
+<select name="country" required>
+
+<option value="" disabled selected>
+Select Your Country
+</option>
+
+<option value="Philippines">
+🇵🇭 Philippines
+</option>
+
+<option value="United States">
+🇺🇸 United States
+</option>
+
+<option value="Canada">
+🇨🇦 Canada
+</option>
+
+<option value="United Kingdom">
+🇬🇧 United Kingdom
+</option>
+
+<option value="United Arab Emirates">
+🇦🇪 United Arab Emirates
+</option>
+
+<option value="Saudi Arabia">
+🇸🇦 Saudi Arabia
+</option>
+
+<option value="Qatar">
+🇶🇦 Qatar
+</option>
+
+<option value="Australia">
+🇦🇺 Australia
+</option>
+
+<option value="Singapore">
+🇸🇬 Singapore
+</option>
+
+<option value="Malaysia">
+🇲🇾 Malaysia
+</option>
+
+<option value="Other">
+🌎 Other
+</option>
+
+</select>
+
 <input
-type="tel"
-name="phone"
-placeholder="Your Contact Number"
+type="number"
+name="quantity"
+placeholder="How many sets are you interested in?"
+min="1"
 required
 >
 
-<select name="preferred_color" required>
-<option value="" disabled selected>Choose Your Favorite Color</option>
-<option value="Black">Black</option>
-<option value="Choco Brown">Choco Brown</option>
-<option value="Beige">Beige</option>
-<option value="Blush">Blush</option>
-</select>
+<textarea
+name="message"
+placeholder="Anything you'd like us to know?"
+rows="4">
+</textarea>
 
 <button type="submit">
-Join the NOORA Early Access List
+Notify Me About International Orders
 </button>
 
 </form>
 
 </section>
-
-<!-- Follow -->
-
-<section class="social">
-
-<h2>
-
-Follow NOORA
-
-</h2>
-
-<div class="social-links">
-
-<a href="https://www.facebook.com/NooraFashion26" target="_blank">
-
-Facebook
-
-</a>
-
-<a href="https://www.instagram.com/nooraph2026/" target="_blank">
-
-Instagram
-
-</a>
-
-<a href="https://www.tiktok.com/@nooraph" target="_blank">
-
-TikTok
-
-</a>
-
-</div>
-
-</section>
-
-<!-- Contact -->
-
-<section id="contact">
-
-<h2>
-
-Let's Stay Connected
-
-</h2>
-
-<p>
-
-For collaborations, inquiries, or updates, connect with us through our social media pages.
-
-</p>
-
-</section>
-
-<footer>
-
-<h3>
-
-NOORA
-
-</h3>
-
-<p>
-
-Comfort, Thoughtfully Designed.
-
-</p>
-
-<p>
-
-© 2026 NOORA
-
-</p>
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-
-</html>
+```
