@@ -1,4 +1,3 @@
-```css
 /* -------------------------
 NOORA Luxury Style
 ------------------------- */
@@ -20,9 +19,7 @@ color:#4C433D;
 line-height:1.7;
 }
 
-/* -------------------------
-Navigation
-------------------------- */
+/* Navigation */
 
 nav{
 position:sticky;
@@ -46,13 +43,13 @@ font-weight:600;
 nav ul{
 display:flex;
 list-style:none;
-gap:30px;
+gap:35px;
 }
 
 nav a{
 text-decoration:none;
 color:#5B4D43;
-font-size:14px;
+font-size:15px;
 transition:.3s;
 }
 
@@ -60,9 +57,7 @@ nav a:hover{
 color:#B4947A;
 }
 
-/* -------------------------
-Hero
-------------------------- */
+/* Hero */
 
 header{
 width:100%;
@@ -75,82 +70,35 @@ object-fit:cover;
 display:block;
 }
 
-/* -------------------------
-General Sections
-------------------------- */
+/* Sections */
 
 section{
 padding:90px 10%;
 }
 
-h1,
-h2,
-h3{
-font-family:'Cormorant Garamond',serif;
-}
-
 h1{
+font-family:'Cormorant Garamond',serif;
 font-size:64px;
 font-weight:600;
 margin-bottom:25px;
 text-align:center;
-line-height:1.1;
 }
 
 h2{
+font-family:'Cormorant Garamond',serif;
 font-size:48px;
-font-weight:600;
-margin-bottom:25px;
+margin-bottom:35px;
 text-align:center;
-line-height:1.2;
 }
 
 p{
 max-width:800px;
 margin:auto;
 text-align:center;
-font-size:17px;
+font-size:18px;
 }
 
-/* -------------------------
-Intro
-------------------------- */
-
-.intro{
-text-align:center;
-padding-top:100px;
-padding-bottom:100px;
-}
-
-.eyebrow{
-font-size:11px;
-letter-spacing:3px;
-text-transform:uppercase;
-color:#9A806B;
-margin-bottom:25px;
-}
-
-.intro > p:not(.eyebrow){
-max-width:750px;
-}
-
-.worldwide-note{
-margin-top:25px;
-font-size:13px;
-letter-spacing:1px;
-}
-
-/* -------------------------
-Buttons
-------------------------- */
-
-.hero-buttons{
-display:flex;
-justify-content:center;
-align-items:center;
-gap:15px;
-flex-wrap:wrap;
-}
+/* Button */
 
 .button{
 display:inline-block;
@@ -161,26 +109,17 @@ color:white;
 text-decoration:none;
 border-radius:50px;
 transition:.3s;
-font-size:14px;
-letter-spacing:.5px;
 }
 
 .button:hover{
 background:#977963;
-transform:translateY(-2px);
 }
 
-.secondary-button{
-background:#4A4038;
+.intro{
+text-align:center;
 }
 
-.secondary-button:hover{
-background:#746255;
-}
-
-/* -------------------------
-Story
-------------------------- */
+/* Story */
 
 .story{
 display:grid;
@@ -199,23 +138,7 @@ text-align:left;
 margin-bottom:20px;
 }
 
-.story-text strong{
-font-weight:600;
-}
-
-/* -------------------------
-Section Intro
-------------------------- */
-
-.section-intro{
-margin-top:-10px;
-font-size:16px;
-color:#75685E;
-}
-
-/* -------------------------
-Cards
-------------------------- */
+/* Cards */
 
 .cards{
 display:grid;
@@ -226,331 +149,23 @@ margin-top:50px;
 
 .card{
 background:white;
-padding:38px 30px;
+padding:35px;
 border-radius:20px;
 text-align:center;
 box-shadow:0 10px 25px rgba(0,0,0,.05);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-4px);
-box-shadow:0 14px 30px rgba(0,0,0,.07);
 }
 
 .card h3{
-font-size:25px;
-margin-bottom:12px;
-font-weight:600;
-}
-
-.card p{
-font-size:15px;
-}
-
-/* -------------------------
-Made for the Woman
-------------------------- */
-
-#for-you{
-background:#F3EEE8;
-}
-
-.for-you-grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:25px;
-max-width:900px;
-margin:50px auto 0;
-}
-
-.for-you-item{
-background:#FAF8F5;
-padding:35px;
-border-radius:18px;
-text-align:center;
-}
-
-.for-you-item h3{
-font-size:26px;
-margin-bottom:10px;
-}
-
-.for-you-item p{
-font-size:15px;
-}
-
-/* -------------------------
-The NOORA Difference
-------------------------- */
-
-#difference{
-background:white;
-}
-
-/* -------------------------
-TikTok
-------------------------- */
-
-#tiktok{
-text-align:center;
-padding:90px 8%;
-}
-
-#tiktok h2{
 margin-bottom:15px;
 }
 
-#tiktok > p{
-margin-bottom:45px;
-}
-
-.tiktok-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:25px;
-max-width:1100px;
-margin:0 auto;
-align-items:start;
-}
-
-.tiktok-grid iframe{
-width:100%;
-height:600px;
-border:none;
-border-radius:12px;
-}
-
-.tiktok-follow{
-margin-top:40px;
-}
-
-.tiktok-follow a{
-text-decoration:none;
-letter-spacing:1px;
-color:#5C4B42;
-}
-
-.tiktok-follow a:hover{
-color:#B4947A;
-}
-
-/* -------------------------
-How to Order
-------------------------- */
-
-#order{
-background:#F3EEE8;
-}
-
-.order-steps{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:25px;
-max-width:1100px;
-margin:55px auto 0;
-}
-
-.order-step{
-background:white;
-padding:35px 25px;
-border-radius:18px;
-text-align:center;
-}
-
-.order-step span{
-font-family:'Cormorant Garamond',serif;
-font-size:38px;
-color:#B4947A;
-display:block;
-margin-bottom:10px;
-}
-
-.order-step h3{
-font-size:24px;
-margin-bottom:12px;
-}
-
-.order-step p{
-font-size:14px;
-}
-
-/* -------------------------
-Worldwide Shipping
-------------------------- */
-
-#worldwide{
-text-align:center;
-}
-
-#worldwide > p{
-margin-bottom:12px;
-}
-
-.shipping-note{
-max-width:650px;
-margin:40px auto 10px;
-padding:35px;
-background:white;
-border-radius:18px;
-box-shadow:0 10px 25px rgba(0,0,0,.05);
-}
-
-.shipping-note strong{
-display:block;
-font-family:'Cormorant Garamond',serif;
-font-size:25px;
-margin-top:15px;
-}
-
-.shipping-note strong:first-child{
-margin-top:0;
-}
-
-.shipping-note p{
-font-size:15px;
-margin-bottom:10px;
-}
-
-.small-note{
-font-size:12px !important;
-color:#8A7D73;
-margin-top:20px !important;
-}
-
-/* -------------------------
-Forms
-------------------------- */
-
-#international-interest{
-background:#F3EEE8;
-}
-
-.waitlist-form{
-max-width:500px;
-margin:40px auto 0;
-display:flex;
-flex-direction:column;
-gap:15px;
-}
-
-.waitlist-form input,
-.waitlist-form select,
-.waitlist-form textarea{
-width:100%;
-padding:16px 18px;
-border:1px solid #D8CFC5;
-background:#FFFDF9;
-font-family:'Manrope',sans-serif;
-font-size:14px;
-color:#4A4038;
-outline:none;
-border-radius:0;
-}
-
-.waitlist-form textarea{
-resize:vertical;
-min-height:110px;
-}
-
-.waitlist-form input::placeholder,
-.waitlist-form textarea::placeholder{
-color:#9B9188;
-}
-
-.waitlist-form input:focus,
-.waitlist-form select:focus,
-.waitlist-form textarea:focus{
-border-color:#8B7765;
-}
-
-.waitlist-form button{
-padding:16px 25px;
-border:none;
-background:#4A4038;
-color:white;
-font-family:'Manrope',sans-serif;
-font-size:13px;
-letter-spacing:1px;
-cursor:pointer;
-transition:.3s ease;
-}
-
-.waitlist-form button:hover{
-background:#746255;
-}
-
-/* -------------------------
-Coming Soon
-------------------------- */
+/* Coming Soon */
 
 #coming{
-background:#EEE6DD;
+background:#F3EEE8;
 }
 
-#coming p{
-margin-bottom:10px;
-}
-
-/* -------------------------
-FAQ
-------------------------- */
-
-#faq{
-background:white;
-}
-
-.faq-list{
-max-width:800px;
-margin:45px auto 0;
-}
-
-.faq-list details{
-border-bottom:1px solid #DDD4CA;
-padding:20px 0;
-}
-
-.faq-list summary{
-font-family:'Cormorant Garamond',serif;
-font-size:23px;
-font-weight:600;
-cursor:pointer;
-list-style:none;
-position:relative;
-padding-right:30px;
-}
-
-.faq-list summary::-webkit-details-marker{
-display:none;
-}
-
-.faq-list summary::after{
-content:"+";
-position:absolute;
-right:0;
-font-family:'Manrope',sans-serif;
-font-size:20px;
-font-weight:300;
-}
-
-.faq-list details[open] summary::after{
-content:"−";
-}
-
-.faq-list details p{
-text-align:left;
-font-size:15px;
-margin:15px 0 5px;
-color:#75685E;
-}
-
-/* -------------------------
-Social
-------------------------- */
-
-.social{
-text-align:center;
-}
+/* Social */
 
 .social-links{
 display:flex;
@@ -564,24 +179,13 @@ flex-wrap:wrap;
 text-decoration:none;
 color:#5C4B42;
 font-weight:600;
-font-size:14px;
 }
 
 .social-links a:hover{
 color:#B4947A;
 }
 
-/* -------------------------
-Contact
-------------------------- */
-
-#contact{
-background:#F3EEE8;
-}
-
-/* -------------------------
-Footer
-------------------------- */
+/* Footer */
 
 footer{
 background:#EEE6DD;
@@ -590,6 +194,7 @@ text-align:center;
 }
 
 footer h3{
+font-family:'Cormorant Garamond',serif;
 font-size:34px;
 margin-bottom:10px;
 letter-spacing:6px;
@@ -597,37 +202,25 @@ letter-spacing:6px;
 
 footer p{
 margin:10px auto;
-font-size:14px;
 }
 
-/* -------------------------
-Mobile
-------------------------- */
+/* Mobile */
 
 @media(max-width:900px){
 
 nav{
 flex-direction:column;
-gap:15px;
-padding:18px 5%;
+gap:20px;
 }
 
 nav ul{
 flex-wrap:wrap;
 justify-content:center;
-gap:12px 18px;
+gap:15px;
 }
 
-nav a{
-font-size:12px;
-}
-
-header img{
-height:60vh;
-}
-
-section{
-padding:70px 7%;
+.story{
+grid-template-columns:1fr;
 }
 
 h1{
@@ -638,117 +231,155 @@ h2{
 font-size:38px;
 }
 
-p{
-font-size:16px;
+  /* NOORA Early Access Form */
+
+.waitlist-form {
+    max-width: 500px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* Story */
-
-.story{
-grid-template-columns:1fr;
-gap:40px;
+.waitlist-form input,
+.waitlist-form select {
+    width: 100%;
+    padding: 16px 18px;
+    border: 1px solid #d8cfc5;
+    background: #fffdf9;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: #4a4038;
+    outline: none;
+    box-sizing: border-box;
 }
 
-.story-text p{
-text-align:center;
+.waitlist-form input::placeholder {
+    color: #9b9188;
 }
 
-/* Made for You */
-
-.for-you-grid{
-grid-template-columns:1fr;
+.waitlist-form input:focus,
+.waitlist-form select:focus {
+    border-color: #8b7765;
 }
 
-/* Order */
-
-.order-steps{
-grid-template-columns:1fr 1fr;
+.waitlist-form button {
+    padding: 16px 25px;
+    border: none;
+    background: #4a4038;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
-/* TikTok */
-
-.tiktok-grid{
-grid-template-columns:1fr;
-max-width:400px;
+.waitlist-form button:hover {
+    background: #746255;
 }
-
-.tiktok-grid iframe{
-height:650px;
-}
-
-/* Buttons */
-
-.hero-buttons{
-flex-direction:column;
-}
-
-.button{
-margin-top:20px;
-}
-
-/* Intro */
-
-.intro{
-padding-top:75px;
-padding-bottom:75px;
-}
-
-}
-
-/* -------------------------
-Small Mobile
-------------------------- */
-
-@media(max-width:550px){
-
-.brand{
-font-size:30px;
-letter-spacing:6px;
-}
-
-nav ul{
-gap:8px 14px;
-}
-
-nav a{
-font-size:11px;
-}
-
 header img{
-height:55vh;
-}
-
-h1{
-font-size:40px;
-}
-
-h2{
-font-size:34px;
-}
-
-section{
-padding:60px 6%;
-}
-
-.cards{
-grid-template-columns:1fr;
-}
-
-.order-steps{
-grid-template-columns:1fr;
-}
-
-.order-step{
-padding:30px 25px;
-}
-
-.shipping-note{
-padding:28px 20px;
-}
-
-.waitlist-form{
-width:100%;
+height:60vh;
 }
 
 }
-```
+
+/* NOORA TikTok Section */
+
+#tiktok {
+    text-align: center;
+    padding: 90px 8%;
+}
+
+#tiktok h2 {
+    margin-bottom: 15px;
+}
+
+#tiktok > p {
+    margin-bottom: 45px;
+}
+
+.tiktok-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.tiktok-embed {
+    margin: 0 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+}
+
+.tiktok-follow {
+    margin-top: 40px;
+}
+
+.tiktok-follow a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+
+    .tiktok-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+}
+
+/* NOORA TikTok Videos */
+
+#tiktok {
+    text-align: center;
+    padding: 90px 8%;
+}
+
+#tiktok h2 {
+    margin-bottom: 15px;
+}
+
+#tiktok > p {
+    margin-bottom: 45px;
+}
+
+.tiktok-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tiktok-grid iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border-radius: 12px;
+}
+
+.tiktok-follow {
+    margin-top: 40px;
+}
+
+.tiktok-follow a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 900px) {
+
+    .tiktok-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+
+    .tiktok-grid iframe {
+        height: 650px;
+    }
+
+}
